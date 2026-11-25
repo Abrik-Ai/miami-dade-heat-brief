@@ -22,7 +22,8 @@ Each note: what I did, what I saw, and why it matters.
 4. Air-quality field names are inconsistent: most use `air_quality_*:idx`, but CO is `aqi_us_co`.
 5. `heat_index_celsius` appears only in the hourly series, not in the summary block.
 6. Timestamps are local time (America/New_York, UTC−4 in August), not UTC.
-
+7. MCP calls that run past 120 s drop, and the credits are still charged (2 calls, 5,800 credits).
+8. MCP latency is about 7.6 s per call on average (median 7.3 s, range 4.3–13.1 s).
 ## Questions for FortyGuard
 - What is the reference temperature meant to represent, and how should a user choose it?
 - Is there a way to get the hourly air temperature for a point?
