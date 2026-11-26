@@ -1,0 +1,3 @@
+id,name,lat,lon,elevation_m,source_url
+KMIA,MIAMI INTL AIRPORT,25.788,-80.3169,4.0,https://mesonet.agron.iastate.edu/geojson/network/FL_ASOS.geojson
+KHST,HOMESTEAD AFB,25.4884,-80.3837,2.0,https://mesonet.agron.iastate.edu/geojson/network/FL_ASOS.geojson

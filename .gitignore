@@ -3,3 +3,7 @@
 __pycache__/
 data/raw/
 logs/
+data/raw_api/
+results/matched_hourly.csv
+results/implied_temperature_hourly.csv
+results/replay_daily.csv
